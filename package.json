@@ -1,0 +1,12 @@
+{
+  "name": "zaxtunebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LQLoL",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
