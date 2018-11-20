@@ -1,12 +1,13 @@
 {
-  "name": "Zaxtune-BOT",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "LQLoL",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.4.2"
+  "name": "zaxtune-bot"
+  "description": "test" 
+  "version": "0.0.0"
+  "main": "zaxtunebot.js",
+  "scripts": {
+     "start": "node.zaxtunebot.js"
   },
-  "devDependencies": {},
-  "description": ""
-}
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  } 
+} 
