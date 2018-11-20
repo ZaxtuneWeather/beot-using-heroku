@@ -1,24 +1,15 @@
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const client = new Discord.Client();
 
-const prefix = '.';
-
-bot.om('message', message => {
-
-    let msg = message.content.toUpperCase();
-    let sender = message.author;
-    let cont = message.content.slice(prefix.letgth).split(" ");
-    let args = cont.slice(1);
-
-    if (msg === prefix + 'PING') {
-        message.channel.send('PONG');
-        return;
-    }
-
+client.on('ready', () => {
+    console.log('I am Ready!');
 });
 
-bot.on('ready', () = > {
-    console.log('WINGGGGGG!')
+client.on('message', message => {
+    if (message.content === 'ping') {
+        message.reply('pong');
+       } 
 });
 
-bot.login(process.env.BOT_TOKEN);
+// THIS MUST BE THIS WAY
+client.login(process.env.BOT_TOKEN);
