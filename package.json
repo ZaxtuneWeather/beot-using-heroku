@@ -1,7 +1,7 @@
 {
-  "name": "zaxtune-bot"
-  "description: "test",
-  "version": "0.0.0"
+  "name": "zaxtune-bot",
+  "description: "Test",
+  "version": "0.0.0",
   "main": "zaxtunebot.js",
   "scripts": {
      "start": "node.zaxtunebot.js"
